@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #7358ff;
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 400px;
+    min-height: 100px;
+    text-align: center;
+    background: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin: 100px auto;
+    .details{
+      text-align: start;
+      padding: 20px 14px;
+      .keys{
+        font-weight: bolder;
+      }
+      #countryName{
+        font-weight: 800;
+      }
+    }
+    .inpSection{
+
+      #getInp{
+        width: 70%;
+        border: none;
+        border-bottom: 1px solid #d9cfdd;
+        padding: 6px 5px;
+        &:focus{
+          outline: none;
+        }
+      }
+      #btn{
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        border: none;
+        background: #5D12D2;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 22px;
+      }
+    }
+    .flag{
+      width: 280px;
+      height: 190px;
+      text-align: start;
+    }
+    
+}
